@@ -1,0 +1,93 @@
+body{
+    background-color: #1a1a1d;
+    font-family: "Poopins", sans-serif;
+}
+
+h1{
+    color: #950740;
+    text-align: center;
+    font-size: 1000%;
+}
+
+.subtitle{
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+
+.destaque{
+    color: #950740;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.break{
+    flex-basis: 100%;
+    width: 0;
+}
+
+.card {
+    background-color: #4e4e50;
+    border-radius: 5px;
+    /*box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);*/
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover{
+    transform: translate(-5px);
+    cursor: pointer;
+}
+
+.card p{
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+.image {
+    float:right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+
+.red{
+    border-left: 4px solid #950740;
+}
+
+
+.card-title{
+    color: #950740;
+}
+
+.flex-container{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.flex-item{
+    
+    height: 45%;
+}
+
+.social-btn{
+    
+    transition: all 0.2s ease-out;
+}
+
+.social-btn:hover{
+
+    transform: translate(-3px);
+    cursor: pointer;
+}
